@@ -1,0 +1,60 @@
+/* General */
+body {
+    background-color: #d2a679; /* Color de fondo */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ffffff; /* Fondo blanco para la barra */
+    border-bottom: 2px solid #007bff; /* Línea azul en la parte inferior */
+}
+
+.navbar-brand img {
+    height: 50px; /* Tamaño del logo */
+}
+
+.navbar-nav .nav-link {
+    color: #000000; /* Color negro para los enlaces */
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Azul en hover */
+}
+
+/* Botón de cerrar sesión */
+.btn-cerrar-sesion {
+    background-color: #007bff;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 5px 15px;
+    border: none;
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.btn-cerrar-sesion:hover {
+    background-color: #0056b3; /* Color más oscuro en hover */
+}
+
+/* Contenido principal */
+.content {
+    display: flex; /* Usar flexbox para organizar el contenido */
+    align-items: center; /* Centrar verticalmente */
+    justify-content: space-between; /* Separar el texto y la imagen */
+    padding: 50px;
+}
+
+.content .text {
+    flex: 1; /* Ocupa el espacio disponible para el texto */
+    padding-right: 20px; /* Espacio entre texto e imagen */
+}
+
+.content img {
+    max-width: 800px; /* Tamaño máximo de la imagen */
+    border-radius: 15px; /* Bordes redondeados */
+    margin-left: auto; /* Empujar la imagen hacia la derecha */
+}
